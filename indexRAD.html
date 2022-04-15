@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="stylesheet"type="text/css" href="styles/RADstyles.css">
+	<title>CP distributers</title>
+  <style>
+  	body{
+  		margin: 0;
+  	}
+  	ul {
+  		list-style-type: none ;
+  		padding: 20px;
+  		margin: 0;
+  		background-color: black;
+  		text-align: center;
+  	}
+  	li{
+  		display: inline;
+  		font-size: 1.5m;
+  		font-family: Arial;
+  		line-height: 55px;
+
+  	}
+  	li a {
+  		text direction: none;
+  		color: lightgray;
+  		padding: 20px 40px;
+
+  	}
+  	li a:hover{
+  		background-color: rebeccapurple;
+  		color: white;
+  	}
+  </style>
+
+</head>
+<body>
+	<!--
+<img src="D:\RAD Project\RAD\src\images\Bg.jpg" alt="background image" width="200" height="200" class="center">
+-->
+  
+<h1 class="header">CP distributers</h1>
+<hr>
+<!--
+<h4>search bar</h4> <p>//untill i learn how to add bar</p>
+<hr>
+<h3>Offers and add</h3><p>//need to add adds</p>
+<hr>
+<h3>horizontal bar</h3>
+
+-->
+
+<nav>
+
+  <ul>
+	  	<li><a href="">Home</a></li>
+	  	<li><a href="">Products</a></li>
+	  	<li><a href="">About us</a></li>
+	  	<li><a href="">Contact</a></li>
+	  	<li><a href="bils.html"><button>Pay bills</button></a></li>
+  </ul>
+</nav>
+<!--	
+<hr>
+<h3>shopping items images and add</h3>
+<p>//1 st page done</p>
+-->
+<hr>
+<div class="photo" id="appContent">
+
+	<div class="photo1">
+		<img src="D:\RAD Project\RAD\src\images\truck.jpg" alt="background image" width="300"  onclick="delivery()">
+    </div>
+  <div class="photo1" id="photoContent">
+		<img src="D:\RAD Project\RAD\src\images\corporate.png" alt="background image"  height="200" width="300" >
+	</div>
+	<div class="photo1">
+		<img src="D:\RAD Project\RAD\src\images\efficient.png" alt="background image" height="200" width="300">
+	</div>
+	<div class ="photo1">
+		<img src="D:\RAD Project\RAD\src\images\special.png" alt="background image" height="200" width="300" >
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+		
+		function delivery() { 
+			
+		
+			document.getElementById("appContent").innerHTML='<object type="text/html" data="home.html"></object>'
+		}
+	</script>
+</body>
+
+
+</html>

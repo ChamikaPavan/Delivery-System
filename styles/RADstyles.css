@@ -1,0 +1,40 @@
+/*body{
+background-image:url("../images/Bg1.jpg");//D:\RAD Project\RAD\src\images
+  border: 2px solid black;
+  padding: 25px;
+
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center; 
+background-color:#cccccc;
+ background-size: 1500px,700px; 
+
+  
+}*/
+
+
+/*.center{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 200px;
+  height: 200px;
+ 
+}*/
+
+.header{
+ font-family: "Papyrus",Fantacy;
+text-align: center;
+ 
+
+}
+.photo{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.photo1{
+  width: 100%;
+}
